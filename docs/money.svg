@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-label="Net money saved in June against the number of alerts per day">
+<style>
+  .bg { fill: #fcfcfb; } .grid { stroke: #e4e3df; stroke-width: 1; }
+  .axis { fill: #52514e; font: 12px system-ui, -apple-system, sans-serif; }
+  .title { fill: #0b0b0b; font: 600 15px system-ui, -apple-system, sans-serif; }
+  .sub { fill: #0b0b0b; font: 600 13px system-ui, -apple-system, sans-serif; }
+  .s0 { stroke: #2a78d6; } .s1 { stroke: #eb6834; } .s2 { stroke: #1baf7a; }
+  .f0 { fill: #2a78d6; } .f1 { fill: #eb6834; } .f2 { fill: #1baf7a; }
+  .line { fill: none; stroke-width: 2.5; } .mark { stroke: #52514e; stroke-width: 1.5; stroke-dasharray: 4 4; }
+  @media (prefers-color-scheme: dark) {
+    .bg { fill: #1a1a19; } .grid { stroke: #34332f; } .axis { fill: #c3c2b7; } .title, .sub { fill: #f0efec; }
+    .s0 { stroke: #3987e5; } .s1 { stroke: #d95926; } .s2 { stroke: #199e70; }
+    .f0 { fill: #3987e5; } .f1 { fill: #d95926; } .f2 { fill: #199e70; } .mark { stroke: #c3c2b7; }
+  }
+</style>
+<rect class="bg" width="900" height="380" rx="8"/>
+<text class="title" x="80" y="26">Money saved in June vs how many alerts the team reviews</text>
+<text class="axis" x="80" y="48">Gradient boosting. Each alert costs €5 of analyst time; each alert blocks the card and stops the rest of that fraud.</text>
+<line class="grid" x1="80" x2="870" y1="320" y2="320"/><text class="axis" x="72" y="324" text-anchor="end">€0k</text>
+<line class="grid" x1="80" x2="870" y1="272" y2="272"/><text class="axis" x="72" y="276" text-anchor="end">€10k</text>
+<line class="grid" x1="80" x2="870" y1="224" y2="224"/><text class="axis" x="72" y="228" text-anchor="end">€20k</text>
+<line class="grid" x1="80" x2="870" y1="176" y2="176"/><text class="axis" x="72" y="180" text-anchor="end">€30k</text>
+<line class="grid" x1="80" x2="870" y1="128" y2="128"/><text class="axis" x="72" y="132" text-anchor="end">€40k</text>
+<line class="grid" x1="80" x2="870" y1="80" y2="80"/><text class="axis" x="72" y="84" text-anchor="end">€50k</text>
+<text class="axis" x="80" y="338" text-anchor="middle">1</text>
+<text class="axis" x="183" y="338" text-anchor="middle">2</text>
+<text class="axis" x="320" y="338" text-anchor="middle">5</text>
+<text class="axis" x="423" y="338" text-anchor="middle">10</text>
+<text class="axis" x="527" y="338" text-anchor="middle">20</text>
+<text class="axis" x="663" y="338" text-anchor="middle">50</text>
+<text class="axis" x="767" y="338" text-anchor="middle">100</text>
+<text class="axis" x="870" y="338" text-anchor="middle">200</text>
+<polyline class="line s0" points="80,232 103,221 123,216 144,216 162,202 183,202 202,198 222,187 242,166 262,146 283,127 303,110 324,100 344,98 364,97 384,97 404,95 425,93 445,91 465,92 485,91 506,92 526,94 546,95 566,96 586,97 607,100 627,103 647,107 668,110 688,116 708,122 728,129 748,137 769,146 789,157 809,169 830,183 850,198 870,216"/>
+<line class="mark" x1="410" x2="410" y1="80" y2="320"/><circle class="f0" cx="410" cy="93" r="5"/><text class="axis" x="420" y="267">Chosen on May data: 9 alerts/day, 56% of them fraud,</text><text class="axis" x="420" y="283">93% of fraud money stopped, net €47,371</text>
+<text class="axis" x="475" y="360" text-anchor="middle">Alerts per day (log scale)</text>
+<text class="axis" x="24" y="200" text-anchor="middle" transform="rotate(-90 24 200)">Net saving (fraud stopped − review cost)</text>
+</svg>
