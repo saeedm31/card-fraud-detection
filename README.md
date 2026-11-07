@@ -10,6 +10,8 @@
 
 👉 **[Open the live app](https://sh-card-fraud-detection.streamlit.app/)**
 
+📚 **Documentation:** [architecture](docs/architecture.md) · [model card](docs/model_card.md) · [data card](docs/data_card.md)
+
 ---
 
 ## 💡 The problem
@@ -116,6 +118,7 @@ python benchmark_ulb.py creditcard.csv      # writes reports/benchmark_ulb.json
 │   ├── evaluate.py            # PR-AUC, alert budget, money stopped, best threshold
 │   ├── explain.py             # plain-language reasons for each alert
 │   └── service.py             # what the app calls
+├── docs/                      # architecture, model card, data card, charts
 ├── reports/                   # saved results
 └── tests/                     # unit tests + a headless run of the app
 ```
